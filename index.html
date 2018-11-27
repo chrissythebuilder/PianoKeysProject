@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel = "stylesheet" href = "assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|Unlock" rel="stylesheet">
     <link rel = "stylesheet" href = "assets/css/style.css">
     <script src = "assets/js/app.js"> </script>
 
@@ -13,23 +14,92 @@
 
 
 </head>
-<body>
-    <h1> Play some tunes! </h1>
+<body style = "background-image: url('assets/images/audience.jpeg')">
+    <h1> Piano Player </h1>
+    <h2> feel free to play some tunes and relax </h2>
         <div id = "wrapper">
-            <div data-keys = "65" class = "keys keys-bottom key1"> </div>
-            <div data-keys = "87" class = "keys keys-top key2"> </div>
-            <div data-keys = "83" class = "keys keys-bottom key3"> </div>
-            <div data-keys = "69" class = "keys keys-top key4"> </div>
-            <div data-keys = "68" class = "keys keys-bottom key5"> </div>
-            <div data-keys = "72" class = "keys keys-bottom key6"> </div>
-            <div data-keys = "85" class = "keys keys-top key7"> </div>
-            <div data-keys = "74" class = "keys keys-bottom key8"> </div>
-            <div data-keys = "73" class = "keys keys-top key10"> </div>
-            <div data-keys = "75" class = "keys keys-bottom key11"> </div>
-            <div data-keys = "79" class = "keys keys-top key12"> </div>
-            <div data-keys = "76" class = "keys keys-bottom key13"> </div>
+            <div data-key = "65" class = "keys keys-bottom key1"> 
+                <p class = "note"> C </p> <br />
+                <p> Type </p>
+                <p> "A" </p>
+                <p class = "note-name"> DO </p>
+            </div>
+            <div data-key = "87" class = "keys keys-top key2"> 
+                <p class = "note"> C# </p> <br />
+                <p> Type </p>
+                <p> "W" </p>
+            </div>
+            <div data-key = "83" class = "keys keys-bottom key3"> 
+                <p class = "note"> D </p> <br />
+                <p> Type </p>
+                <p> "S" </p>
+                <p class = "note-name"> RE </p>
+            </div>
+            <div data-key = "69" class = "keys keys-top key4"> 
+                <p class = "note"> Eb </p> <br />
+                <p> Type </p>
+                <p> "E" </p>
+            </div>
+            <div data-key = "68" class = "keys keys-bottom key5"> 
+                <p class = "note"> E </p> <br />
+                <p> Type </p>
+                <p> "D" </p>
+                <p class = "note-name"> MI </p>
+            </div>
+            <div data-key = "72" class = "keys keys-bottom key6"> 
+                <p class = "note"> F </p> <br />
+                <p> Type </p>
+                <p> "H" </p>
+                <p class = "note-name"> FA </p>
+            </div>
+            <div data-key = "85" class = "keys keys-top key7"> 
+                <p class = "note"> F# </p> <br />
+                <p> Type </p>
+                <p> "U" </p>
+            </div>
+            <div data-key = "74" class = "keys keys-bottom key8"> 
+                <p class = "note"> G </p> <br />
+                <p> Type </p>
+                <p> "J" </p>
+                <p class = "note-name"> SO </p>
+            </div>
+            <div data-key = "73" class = "keys keys-top key10"> 
+                <p class = "note"> Ab </p> <br />
+                <p> Type </p>
+                <p> "I" </p>
+            </div>
+            <div data-key = "75" class = "keys keys-bottom key11"> 
+                <p class = "note"> A </p> <br />
+                <p> Type </p>
+                <p> "K" </p>
+                <p class = "note-name"> LA </p>
+            </div>
+            <div data-key = "79" class = "keys keys-top key12"> 
+                <p class = "note"> Bb </p> <br />
+                <p> Type </p>
+                <p> "O" </p>
+            </div>
+            <div data-key = "76" class = "keys keys-bottom key13"> 
+                <p class = "note"> B </p> <br />
+                <p> Type </p>
+                <p> "L" </p>
+                <p class = "note-name"> TI </p>
+            </div>
         </div>
     </div>
+
+    <audio data-key = "65" src = "assets/sounds/c-key.wav"> </audio>
+    <audio data-key = "87" src = "assets/sounds/csharp-key.wav"> </audio>
+    <audio data-key = "83" src = "assets/sounds/d-key.wav"> </audio>
+    <audio data-key = "69" src = "assets/sounds/eflat-key.wav"> </audio>
+    <audio data-key = "68" src = "assets/sounds/e-key.wav"> </audio>
+    <audio data-key = "72" src = "assets/sounds/f-key.wav"> </audio>
+    <audio data-key = "85" src = "assets/sounds/fsharp-key.wav"> </audio>
+    <audio data-key = "74" src = "assets/sounds/g-key.wav"> </audio>
+    <audio data-key = "73" src = "assets/sounds/gsharp-key.wav"> </audio>
+    <audio data-key = "75" src = "assets/sounds/a-key.wav"> </audio>
+    <audio data-key = "79" src = "assets/sounds/bflat-key.wav"> </audio>
+    <audio data-key = "76" src = "assets/sounds/b-key.wav"> </audio>
     
 </body>
 </html>

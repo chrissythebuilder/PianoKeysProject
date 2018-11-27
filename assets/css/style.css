@@ -9,20 +9,50 @@
 
 h1 {
     text-align: center;
-    margin-bottom: 80px
+    font-family: 'Unlock', cursive;
+    color: palegreen;
+    font-size: 350%;
+    background: rgba(128, 128, 128, .3);
+    padding-bottom: 20px;
+    margin-top: 50px
+}
+
+h2 {
+    margin-bottom: 50px;
+    color: palegreen;
+    text-align: center;
+    font-family: 'Unlock', cursive;
+    background: rgba(128, 128, 128, .3);
 }
 
 .keys {
     display: inline;
     border: 2px solid black;
+    text-align: center;
+    font-size: 70%;
+    font-family: 'Hammersmith One', sans-serif;
+    position: relative
+}
+
+.note {
+    margin-bottom: 30px
+}
+
+.note-name {
+    position: absolute;
+    bottom: 10px;
+    font-size: 120%
 }
 
 .keys-bottom {
-    padding: 200px 2vw;
+    padding: 200px .8vw;
+    background: white;
 }
 
 .keys-top {
     background: black;
-    padding: 50px 2vw;
+    padding: 200px .4vw;
+    color: white;
+    font-weight: 700
 }
 
