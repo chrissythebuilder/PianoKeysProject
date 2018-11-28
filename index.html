@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <link rel = "stylesheet" href = "assets/css/reset.css">
-    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|VT323" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One|VT323|Shrikhand" rel="stylesheet">
     <link rel = "stylesheet" href = "assets/css/style.css">
     <title>Piano Keys</title>
 
@@ -14,7 +14,7 @@
 </head>
 <body style = "background-image: url('assets/images/audience.jpeg')">
     <h1> Piano Player </h1>
-    <h2> feel free to play some tunes and relax </h2>
+    <h2> feel free to play some tunes and relax 🎹 </h2>
         <div id = "wrapper">
             <div data-key = "65" class = "keys keys-bottom key1"> 
                 <p class = "note"> C </p> <br />
@@ -85,6 +85,13 @@
             </div>
         </div>
     </div>
+
+    <div id = "mobile-view">
+        <p> If you're on mobile, type here to start playing: </p> <br />
+        <input type = "text" id = "note-list">
+        <button id = "delete-btn"> Restart </button>
+    </div>
+
 
     <audio data-key = "65" src = "assets/sounds/c-key.wav"> </audio>
     <audio data-key = "87" src = "assets/sounds/csharp-key.wav"> </audio>

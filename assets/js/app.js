@@ -24,3 +24,9 @@ function removeTransition(e) {
 
 // loop on every element to add an eventListener
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
+
+function Delete() {
+    document.getElementById("note-list").value = "" ;
+}
+
+document.getElementById("delete-btn").addEventListener("click", Delete)

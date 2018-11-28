@@ -9,28 +9,26 @@
 
 h1 {
     text-align: center;
-    font-family: 'VT323', monospace;
+    font-family: 'Shrikhand', cursive;
     color: yellow;
-    font-size: 450%;
-    background: rgba(128, 128, 128, .3);
+    font-size: 400%;
     padding-bottom: 20px;
     margin-top: 50px
 }
 
 h2 {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: yellow;
     text-align: center;
-    font-family: 'VT323', monospace;
-    background: rgba(128, 128, 128, .3);
-    font-size: 150%
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 120%
 }
 
 .keys {
     display: inline;
     border: 2px solid black;
     text-align: center;
-    font-size: 70%;
+    font-size: 60%;
     font-family: 'Hammersmith One', sans-serif;
     position: relative;
     transition: all .08s;
@@ -47,13 +45,13 @@ h2 {
 }
 
 .keys-bottom {
-    padding: 200px .8vw;
+    padding: 15vw .3vw;
     background: white;
 }
 
 .keys-top {
     background: black;
-    padding: 200px .4vw;
+    padding: 15vw .3vw;
     color: white;
 }
 
@@ -63,3 +61,19 @@ h2 {
     transform: scale(1.5)
 }
 
+#mobile-view {
+    background: coral;
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    margin-top: 30px;
+    padding: 15px 30px;
+    width: 40vw;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 90%;
+    border: 3px solid orange;
+    border-radius: 50px
+}
