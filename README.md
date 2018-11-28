@@ -7,4 +7,6 @@ I have decided to add some twist and use what I've learned to build a simple yet
 
 <img src = "assets/images/pianoproject.png">
 
+Here is the <a href = "http://chriscelledc.com/PianoKeysProject/"> live version </a> ! Enjoy. 
+
 To learn more about the JavaScript30 challenge, check <a href = "https://javascript30.com/" > this </a> out. 
