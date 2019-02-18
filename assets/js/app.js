@@ -25,80 +25,100 @@ function removeTransition(e) {
 // loop on every element to add an eventListener
 keys.forEach(key => key.addEventListener("transitionend", removeTransition));
 
-// find all keys to be used for onclick event
-const keysAll = document.querySelector("keys");
-console.log(keys);
-
 function playOne() {
     const audioOne = document.getElementById("keyOne");
+    const keyAnimate = document.querySelector(".key1");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playTwo() {
     const audioOne = document.getElementById("keyTwo");
+    const keyAnimate = document.querySelector(".key2");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playThree() {
     const audioOne = document.getElementById("keyThree");
+    const keyAnimate = document.querySelector(".key3");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playFour() {
     const audioOne = document.getElementById("keyFour");
+    const keyAnimate = document.querySelector(".key4");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playFive() {
     const audioOne = document.getElementById("keyFive");
+    const keyAnimate = document.querySelector(".key5");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playSix() {
     const audioOne = document.getElementById("keySix");
+    const keyAnimate = document.querySelector(".key6");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playSeven() {
     const audioOne = document.getElementById("keySeven");
+    const keyAnimate = document.querySelector(".key7");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playEight() {
     const audioOne = document.getElementById("keyEight");
+    const keyAnimate = document.querySelector(".key8");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playNine() {
     const audioOne = document.getElementById("keyNine");
+    const keyAnimate = document.querySelector(".key9");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playTen() {
     const audioOne = document.getElementById("keyTen");
+    const keyAnimate = document.querySelector(".key10");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playEleven() {
     const audioOne = document.getElementById("keyEleven");
+    const keyAnimate = document.querySelector(".key11");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function playTwelve() {
     const audioOne = document.getElementById("keyTwelve");
+    const keyAnimate = document.querySelector(".key12");
     audioOne.addEventListener("transitionend", removeTransition);
     audioOne.play();
+    keyAnimate.classList.add("played");
 }
 
 function Delete() {
